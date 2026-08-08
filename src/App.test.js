@@ -1,4 +1,4 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+­r‡^Ñf¥–Ø¦{]lyÊ'vÃ®¶›­import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
 
 test("renders the Iraqi market homepage", () => {
@@ -12,6 +12,10 @@ test("renders the Iraqi market homepage", () => {
   expect(screen.getByRole("link", { name: /explore our brands/i })).toHaveAttribute(
     "href",
     "#brands"
+  );
+  expect(screen.getByRole("link", { name: /start a conversation/i })).toHaveAttribute(
+    "href",
+    "#contact"
   );
 
   expect(screen.getAllByAltText(/^Mutlu product \d+$/i)).toHaveLength(9);
