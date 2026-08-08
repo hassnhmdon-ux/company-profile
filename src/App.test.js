@@ -1,4 +1,4 @@
-­r‡^Ñf¥–Ø¦{^ìyÊ'vÃ®¶›­import { fireEvent, render, screen } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import App from "./App";
 
 test("renders the Iraqi market homepage", () => {
@@ -17,6 +17,11 @@ test("renders the Iraqi market homepage", () => {
     "href",
     "#contact"
   );
+
+  expect(screen.getByAltText("Mutlu logo")).toHaveClass("scale-100");
+  expect(screen.getByAltText("Nuh'un Ankara logo")).toHaveClass("scale-100");
+  expect(screen.getByAltText("Regal logo")).toHaveClass("scale-[1.65]");
+  expect(screen.getByAltText("LOLO Rice logo")).toHaveClass("scale-[2]");
 
   expect(screen.getAllByAltText(/^Mutlu product \d+$/i)).toHaveLength(9);
 
