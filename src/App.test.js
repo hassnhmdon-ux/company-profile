@@ -22,8 +22,17 @@ test("renders the Iraqi market homepage", () => {
   expect(screen.getByAltText("Nuh'un Ankara logo")).toHaveClass("scale-100");
   expect(screen.getByAltText("Regal logo")).toHaveClass("scale-[1.65]");
   expect(screen.getByAltText("LOLO Rice logo")).toHaveClass("scale-[2]");
+  expect(screen.getByAltText("Mutlu logo")).toHaveAttribute("loading", "lazy");
+  expect(screen.getByRole("button", { name: /Mutlu logo/i })).toHaveClass(
+    "focus-visible:ring-2"
+  );
 
   expect(screen.getAllByAltText(/^Mutlu product \d+$/i)).toHaveLength(9);
+  expect(screen.getByAltText("Mutlu product 1")).toHaveAttribute("loading", "lazy");
+  expect(screen.getByAltText("Iraq distribution network map")).toHaveAttribute(
+    "loading",
+    "lazy"
+  );
 
   fireEvent.click(screen.getByRole("button", { name: /Nuh'un Ankara logo/i }));
   expect(screen.getAllByAltText(/^Nuh'un Ankara product \d+$/i)).toHaveLength(22);
