@@ -2,4 +2,94 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  color: #15171a;
+  background: #f7f5f2;
+  font-family: Inter, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #f7f5f2;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  color: white;
+  background: #9b1c29;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.hero-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.055) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.map-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.16) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 24px 60px rgba(13, 16, 20, 0.12);
+  backdrop-filter: blur(16px);
+}
+
+.brand-card {
+  position: relative;
+  isolation: isolate;
+}
+
+.brand-card::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(155, 28, 41, 0.08), transparent 58%);
+  content: "";
+  opacity: 0;
+  transition: opacity 250ms ease;
+}
+
+.brand-card:hover::after,
+.brand-card[data-active="true"]::after {
+  opacity: 1;
+}
+
+.product-shadow {
+  filter: drop-shadow(0 22px 22px rgba(0, 0, 0, 0.24));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 

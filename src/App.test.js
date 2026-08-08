@@ -1,8 +1,16 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("renders the Iraqi market homepage", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  expect(
+    screen.getByRole("heading", {
+      level: 1,
+      name: /your gateway to the iraqi food market/i,
+    })
+  ).toBeInTheDocument();
+  expect(screen.getByRole("link", { name: /explore our brands/i })).toHaveAttribute(
+    "href",
+    "#brands"
+  );
 });
