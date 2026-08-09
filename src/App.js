@@ -93,7 +93,7 @@ const brands = [
   },
   {
     name: "Regal",
-    category: "Pasta & Pantry",
+    category: "Biscuits",
     logo: "/images/regallogo.png",
     products: [
       "/images/regal2.jpg",
