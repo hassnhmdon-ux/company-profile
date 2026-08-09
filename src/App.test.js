@@ -22,6 +22,7 @@ test("renders the Iraqi market homepage", () => {
   expect(screen.getByAltText("Nuh'un Ankara logo")).toHaveClass("scale-100");
   expect(screen.getByAltText("Regal logo")).toHaveClass("scale-[1.65]");
   expect(screen.getByAltText("LOLO Rice logo")).toHaveClass("scale-[2]");
+  expect(screen.getByAltText("MIGITA logo")).toHaveClass("scale-[1.12]");
   expect(screen.getByAltText("Mutlu logo")).toHaveAttribute("loading", "lazy");
   expect(screen.getByRole("button", { name: /Mutlu logo/i })).toHaveClass(
     "focus-visible:ring-2"
@@ -47,4 +48,18 @@ test("renders the Iraqi market homepage", () => {
 
   fireEvent.click(screen.getByRole("button", { name: /Regal logo/i }));
   expect(screen.getAllByAltText(/^Regal product \d+$/i)).toHaveLength(14);
+
+  fireEvent.click(screen.getByRole("button", { name: /MIGITA logo/i }));
+  expect(screen.getByText("New agency")).toBeInTheDocument();
+  expect(screen.getByAltText("Migita Ginger Hard Candy")).toBeInTheDocument();
+  expect(screen.getByAltText("Migita Mint Hard Candy")).toBeInTheDocument();
+  expect(screen.getByAltText("Migita Cinnamon Hard Candy")).toBeInTheDocument();
+  expect(
+    screen.getByAltText("Migita Ginger Hard Candy with Honey Filling")
+  ).toBeInTheDocument();
+  expect(
+    screen.getByAltText("Migita Pink Lemon Hard Candy with Honey Filling")
+  ).toBeInTheDocument();
+  expect(screen.getAllByText("Plastic bag / 70g")).toHaveLength(3);
+  expect(screen.getAllByText("Plastic bag / 140g")).toHaveLength(2);
 });
