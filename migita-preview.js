@@ -181,7 +181,7 @@
     closeButton.type = "button";
     closeButton.className = "professional-product-close";
     closeButton.setAttribute("aria-label", "Close product preview");
-    closeButton.textContent = "Ã—";
+    closeButton.textContent = "\u00D7";
     closeButton.addEventListener("click", closeProductPreview);
 
     const visual = document.createElement("div");
@@ -347,7 +347,7 @@
     button.type = "button";
     button.dataset.migitaPreview = "true";
     button.dataset.active = "false";
-    button.setAttribute("aria-label", "MIGITA logo â€” Hard Candy & Confectionery â€” New agency");
+    button.setAttribute("aria-label", "MIGITA logo - Hard Candy & Confectionery - New agency");
     button.className = "brand-card migita-preview-button flex min-h-[152px] flex-col items-center justify-center rounded-2xl border border-black/10 bg-white px-4 py-5 text-center transition focus:outline-none";
     button.innerHTML = `
       <span class="migita-new-chip">New</span>
