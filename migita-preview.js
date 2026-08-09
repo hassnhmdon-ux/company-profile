@@ -1,27 +1,27 @@
 (() => {
   const products = [
     {
-      image: "/images/migita-ginger-70g.svg",
+      image: "/images/migita-ginger-70g.jpg",
       name: "Migita Ginger Hard Candy",
       detail: "Plastic bag / 70g",
     },
     {
-      image: "/images/migita-mint-70g.svg",
+      image: "/images/migita-mint-70g.jpg",
       name: "Migita Mint Hard Candy",
       detail: "Plastic bag / 70g",
     },
     {
-      image: "/images/migita-cinnamon-70g.svg",
+      image: "/images/migita-cinnamon-70g.jpg",
       name: "Migita Cinnamon Hard Candy",
       detail: "Plastic bag / 70g",
     },
     {
-      image: "/images/migita-ginger-honey-140g.svg",
+      image: "/images/migita-ginger-honey-140g.jpg",
       name: "Migita Ginger Hard Candy with Honey Filling",
       detail: "Plastic bag / 140g",
     },
     {
-      image: "/images/migita-pink-lemon-honey-140g.svg",
+      image: "/images/migita-pink-lemon-honey-140g.jpg",
       name: "Migita Pink Lemon Hard Candy with Honey Filling",
       detail: "Plastic bag / 140g",
     },
@@ -351,7 +351,7 @@
     button.className = "brand-card migita-preview-button flex min-h-[152px] flex-col items-center justify-center rounded-2xl border border-black/10 bg-white px-4 py-5 text-center transition focus:outline-none";
     button.innerHTML = `
       <span class="migita-new-chip">New</span>
-      <img src="/images/migita-logo.svg" alt="MIGITA logo" style="height:56px;width:100%;object-fit:contain;transform:scale(1.12)" loading="lazy" decoding="async" />
+      <img src="/images/migita-logo.png" alt="MIGITA logo" style="height:56px;width:100%;object-fit:contain;transform:scale(1.12)" loading="lazy" decoding="async" />
       <span style="margin-top:16px;font-size:14px;font-weight:800">MIGITA</span>
       <span style="margin-top:4px;font-size:11px;font-weight:600;color:rgba(0,0,0,.6)">Hard Candy &amp; Confectionery</span>`;
     button.addEventListener("click", () => renderMigita(section, button));
