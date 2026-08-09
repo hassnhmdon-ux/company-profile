@@ -28,7 +28,11 @@ test("publishes consistent search-engine metadata", () => {
 
   expect(organization.name).toBe("Eawan Al-Mosul General Trading Co. Ltd.");
   expect(organization.alternateName).toEqual(
-    expect.arrayContaining(["Eawan Almosul", "Eawan Al Mosul", "Ø¥ÙŠÙˆØ§Ù† Ø§Ù„Ù…ÙˆØµÙ„"])
+    expect.arrayContaining([
+      "Eawan Almosul",
+      "Eawan Al Mosul",
+      "\u0625\u064a\u0648\u0627\u0646 \u0627\u0644\u0645\u0648\u0635\u0644",
+    ])
   );
   expect(website.publisher["@id"]).toBe(organization["@id"]);
 });
