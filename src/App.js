@@ -1,5 +1,5 @@
-import React, { useMemo, useState } from "react";
-import { motion } from "framer-motion";
+import React, { useEffect, useMemo, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import {
   FaArrowRight,
   FaBars,
@@ -9,6 +9,7 @@ import {
   FaCheck,
   FaClock,
   FaEnvelope,
+  FaExpandAlt,
   FaFacebookF,
   FaGlobeAsia,
   FaHandshake,
@@ -235,6 +236,17 @@ const partnerReasons = [
 
 const governorates = ["Baghdad", "Karbala", "Najaf", "Kirkuk", "Nasiriyah", "Sulaymaniyah", "Erbil"];
 
+const mapPoints = [
+  { name: "Mosul hub", top: "22%", left: "55%", hub: true },
+  { name: "Erbil", top: "27%", left: "66%" },
+  { name: "Sulaymaniyah", top: "34%", left: "72%" },
+  { name: "Kirkuk", top: "36%", left: "58%" },
+  { name: "Baghdad", top: "51%", left: "55%" },
+  { name: "Karbala", top: "57%", left: "47%" },
+  { name: "Najaf", top: "64%", left: "45%" },
+  { name: "Nasiriyah", top: "73%", left: "59%" },
+];
+
 const compactAnkaraProducts = new Set([
   "/images/ankara10.jpg",
   "/images/ankara18.jpg",
@@ -273,6 +285,7 @@ function App() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const [activeBrand, setActiveBrand] = useState("Mutlu");
   const [activeCollection, setActiveCollection] = useState(null);
+  const [previewProduct, setPreviewProduct] = useState(null);
 
   const selectedBrand = useMemo(
     () => brands.find((brand) => brand.name === activeBrand) || brands[0],
@@ -296,6 +309,23 @@ function App() {
   };
 
   const closeMobile = () => setMobileOpen(false);
+
+  useEffect(() => {
+    if (!previewProduct) return undefined;
+
+    const previousOverflow = document.body.style.overflow;
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") setPreviewProduct(null);
+    };
+
+    document.body.style.overflow = "hidden";
+    window.addEventListener("keydown", closeOnEscape);
+
+    return () => {
+      document.body.style.overflow = previousOverflow;
+      window.removeEventListener("keydown", closeOnEscape);
+    };
+  }, [previewProduct]);
 
   return (
     <div className="min-h-screen overflow-hidden bg-[#f7f5f2] text-[#17191c]">
@@ -519,13 +549,35 @@ function App() {
                     {displayedProducts.map((product, index) => {
                       const imagePath = typeof product === "string" ? product : product.image;
                       const productName = typeof product === "string" ? null : product.name;
+                      const previewName = productName || `${productRangeName} product ${index + 1}`;
 
                       return (
-                        <article key={imagePath} className="flex min-h-[230px] flex-col overflow-hidden rounded-2xl bg-white p-4 shadow-sm">
-                          <div className="grid min-h-0 flex-1 place-items-center overflow-hidden">
+                        <motion.button
+                          key={imagePath}
+                          type="button"
+                          aria-label={`View ${previewName}`}
+                          onClick={() =>
+                            setPreviewProduct({
+                              imagePath,
+                              name: previewName,
+                              brand: selectedBrand.name,
+                              packaging: typeof product === "string" ? null : product.packaging,
+                              weight: typeof product === "string" ? null : product.weight,
+                              imageScale: productImageScale(selectedBrand.name, imagePath),
+                            })
+                          }
+                          whileHover={{ y: -4 }}
+                          whileTap={{ scale: 0.985 }}
+                          transition={{ duration: 0.2 }}
+                          className="group relative flex min-h-[230px] cursor-zoom-in flex-col overflow-hidden rounded-2xl bg-white p-4 text-left shadow-sm outline-none transition-shadow hover:shadow-xl focus-visible:ring-2 focus-visible:ring-[#9b1c29] focus-visible:ring-offset-2"
+                        >
+                          <span className="absolute right-3 top-3 z-10 grid h-8 w-8 place-items-center rounded-full border border-black/8 bg-white/90 text-[11px] text-black/45 opacity-70 shadow-sm backdrop-blur transition sm:opacity-0 sm:group-hover:opacity-100 sm:group-focus-visible:opacity-100">
+                            <FaExpandAlt aria-hidden="true" />
+                          </span>
+                          <div className="grid min-h-0 flex-1 place-items-center overflow-hidden transition-transform duration-300 group-hover:-translate-y-1">
                             <img
                               src={asset(imagePath)}
-                              alt={productName || `${productRangeName} product ${index + 1}`}
+                              alt={previewName}
                               loading="lazy"
                               decoding="async"
                               className={`max-h-52 w-full origin-center object-contain transition-transform duration-300 ${productImageScale(selectedBrand.name, imagePath)}`}
@@ -539,7 +591,7 @@ function App() {
                               </p>
                             </div>
                           )}
-                        </article>
+                        </motion.button>
                       );
                     })}
                   </div>
@@ -599,21 +651,67 @@ function App() {
               <h2 className="mt-5 text-balance text-4xl font-black tracking-[-0.04em] sm:text-5xl">From our Mosul hub to key Iraqi markets.</h2>
               <p className="mt-6 max-w-xl text-base leading-7 text-white/57">Once shipments arrive at our Mosul hub, trusted regional distributors dispatch immediately, supporting reliable product flow and faster time to market.</p>
               <div className="mt-9 grid grid-cols-2 gap-x-8 gap-y-4 sm:grid-cols-3">
-                {governorates.map((governorate) => (
-                  <div key={governorate} className="flex items-center gap-3 border-b border-white/10 pb-4 text-sm font-bold"><span className="h-2 w-2 rounded-full bg-[#d94a57]" />{governorate}</div>
+                {governorates.map((governorate, index) => (
+                  <motion.div
+                    key={governorate}
+                    initial={{ opacity: 0, x: -8 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true, margin: "-40px" }}
+                    transition={{ delay: index * 0.045, duration: 0.3 }}
+                    whileHover={{ x: 4 }}
+                    className="group flex items-center gap-3 border-b border-white/10 pb-4 text-sm font-bold"
+                  >
+                    <span className="h-2 w-2 rounded-full bg-[#d94a57] transition group-hover:scale-150 group-hover:shadow-[0_0_14px_rgba(217,74,87,0.8)]" />
+                    {governorate}
+                  </motion.div>
                 ))}
               </div>
-              <div className="mt-8 inline-flex items-center gap-3 rounded-full border border-white/15 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white/60"><FaMapMarkerAlt className="text-[#d94a57]" /> Mosul headquarters</div>
+              <motion.div whileHover={{ y: -2 }} className="mt-8 inline-flex items-center gap-3 rounded-full border border-white/15 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white/60">
+                <span className="relative grid h-5 w-5 place-items-center">
+                  <span aria-hidden="true" className="absolute inset-0 rounded-full bg-[#d94a57]/30 motion-safe:animate-ping" />
+                  <FaMapMarkerAlt className="relative text-[#d94a57]" />
+                </span>
+                Mosul headquarters
+              </motion.div>
             </div>
 
-            <div className="map-dots relative min-h-[480px] overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.035] p-7 sm:p-10">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.98 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-80px" }}
+              transition={{ duration: 0.55 }}
+              className="map-dots group/map relative min-h-[480px] overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.035] p-7 sm:p-10"
+            >
               <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-[#9b1c29]/30 blur-[80px]" />
-              <img src={asset("/images/logoabou1.jpg")} alt="Iraq distribution network map" loading="lazy" decoding="async" className="relative z-10 h-full min-h-[410px] w-full rounded-2xl object-contain opacity-85 mix-blend-screen" />
-              <div className="absolute bottom-6 left-6 z-20 rounded-2xl bg-white px-5 py-4 text-[#17191c] shadow-xl sm:bottom-9 sm:left-9">
+              <div className="relative z-10 mx-auto aspect-square w-full max-w-[500px]">
+                <img src={asset("/images/logoabou1.jpg")} alt="Iraq distribution network map" loading="lazy" decoding="async" className="h-full w-full rounded-2xl object-contain opacity-85 mix-blend-screen transition-transform duration-700 group-hover/map:scale-[1.018]" />
+                <div aria-hidden="true" className="absolute inset-0">
+                  {mapPoints.map((point, index) => (
+                    <span key={point.name} className="absolute z-20 -translate-x-1/2 -translate-y-1/2" style={{ top: point.top, left: point.left }}>
+                      <motion.span
+                        initial={{ opacity: 0, scale: 0 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.2 + index * 0.07, type: "spring", stiffness: 240, damping: 18 }}
+                        className="relative grid h-4 w-4 place-items-center"
+                      >
+                        {point.hub && <span className="absolute h-8 w-8 rounded-full border border-[#d94a57]/60 motion-safe:animate-ping" />}
+                        <span className={`relative h-2.5 w-2.5 rounded-full border-2 border-white shadow-[0_0_16px_rgba(217,74,87,0.9)] ${point.hub ? "bg-[#d94a57]" : "bg-[#9b1c29]"}`} />
+                        {point.hub && (
+                          <span className="absolute left-5 top-1/2 -translate-y-1/2 whitespace-nowrap rounded-full bg-[#17191c]/85 px-2.5 py-1 text-[9px] font-black uppercase tracking-[0.12em] text-white shadow-lg backdrop-blur">
+                            Mosul hub
+                          </span>
+                        )}
+                      </motion.span>
+                    </span>
+                  ))}
+                </div>
+              </div>
+              <motion.div whileHover={{ y: -4 }} transition={{ duration: 0.2 }} className="absolute bottom-6 left-6 z-30 rounded-2xl bg-white px-5 py-4 text-[#17191c] shadow-xl sm:bottom-9 sm:left-9">
                 <p className="text-2xl font-black tracking-[-0.03em]">Nationwide reach</p>
                 <p className="mt-1 text-xs font-bold uppercase tracking-[0.14em] text-black/60">Regional distribution partners</p>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </section>
 
@@ -663,6 +761,77 @@ function App() {
           </div>
         </section>
       </main>
+
+      <AnimatePresence>
+        {previewProduct && (
+          <motion.div
+            role="dialog"
+            aria-modal="true"
+            aria-labelledby="product-preview-title"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            onClick={() => setPreviewProduct(null)}
+            className="fixed inset-0 z-[70] grid place-items-center overflow-y-auto bg-[#101215]/78 p-4 backdrop-blur-md sm:p-6"
+          >
+            <motion.div
+              initial={{ opacity: 0, y: 20, scale: 0.97 }}
+              animate={{ opacity: 1, y: 0, scale: 1 }}
+              exit={{ opacity: 0, y: 12, scale: 0.98 }}
+              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+              onClick={(event) => event.stopPropagation()}
+              className="relative w-full max-w-4xl overflow-hidden rounded-[28px] border border-white/10 bg-[#f7f5f2] shadow-[0_30px_90px_rgba(0,0,0,0.38)]"
+            >
+              <button
+                type="button"
+                autoFocus
+                aria-label="Close product preview"
+                onClick={() => setPreviewProduct(null)}
+                className="absolute right-4 top-4 z-20 grid h-11 w-11 place-items-center rounded-full border border-black/10 bg-white/90 text-lg text-[#17191c] shadow-lg backdrop-blur transition hover:rotate-90 hover:bg-[#9b1c29] hover:text-white focus:outline-none focus-visible:ring-2 focus-visible:ring-[#9b1c29]"
+              >
+                <FaTimes />
+              </button>
+
+              <div className="grid md:grid-cols-[1.15fr_0.85fr]">
+                <div className="grid min-h-[360px] place-items-center overflow-hidden bg-white p-7 sm:min-h-[500px] sm:p-10">
+                  <motion.img
+                    key={previewProduct.imagePath}
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ delay: 0.08, duration: 0.35 }}
+                    src={asset(previewProduct.imagePath)}
+                    alt={previewProduct.name}
+                    decoding="async"
+                    className={`max-h-[60vh] w-full origin-center object-contain ${previewProduct.imageScale}`}
+                  />
+                </div>
+
+                <div className="flex flex-col justify-between bg-[#f3f0ec] p-7 pt-20 sm:p-10 sm:pt-20">
+                  <div>
+                    <p className="text-xs font-black uppercase tracking-[0.18em] text-[#9b1c29]">Product preview</p>
+                    <p className="mt-4 text-sm font-bold text-black/48">{previewProduct.brand}</p>
+                    <h3 id="product-preview-title" className="mt-2 text-2xl font-black leading-tight tracking-[-0.025em] sm:text-3xl">
+                      {previewProduct.name}
+                    </h3>
+                    {previewProduct.packaging && (
+                      <p className="mt-4 inline-flex rounded-full border border-black/10 bg-white px-3 py-2 text-[11px] font-black uppercase tracking-[0.12em] text-black/55">
+                        {previewProduct.packaging} / {previewProduct.weight}
+                      </p>
+                    )}
+                    <p className="mt-6 text-sm leading-6 text-black/55">
+                      Part of Eawan Al-Mosul's growing portfolio for the Iraqi market.
+                    </p>
+                  </div>
+                  <button type="button" onClick={() => setPreviewProduct(null)} className="mt-8 inline-flex items-center justify-center gap-3 rounded-full bg-[#17191c] px-5 py-3.5 text-sm font-black text-white transition hover:bg-[#9b1c29]">
+                    Continue exploring <FaArrowRight className="text-xs" />
+                  </button>
+                </div>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <footer className="bg-[#17191c] text-white">
         <div className="mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-6 md:grid-cols-[1fr_auto_auto] xl:px-8">

@@ -79,7 +79,7 @@ body {
 }
 
 @media (max-width: 639px) {
-  .five-product-grid > article:last-child {
+  .five-product-grid > button:last-child {
     grid-column: 1 / -1;
     width: calc(50% - 6px);
     justify-self: center;
@@ -91,11 +91,11 @@ body {
     grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
-  .five-product-grid > article {
+  .five-product-grid > button {
     grid-column: span 2 / span 2;
   }
 
-  .five-product-grid > article:nth-last-child(2) {
+  .five-product-grid > button:nth-last-child(2) {
     grid-column-start: 2;
   }
 }
