@@ -507,7 +507,15 @@ function App() {
                       ))}
                     </div>
                   )}
-                  <div className={`grid gap-3 ${displayedProducts.length === 1 ? "grid-cols-1" : "grid-cols-2 sm:grid-cols-3 xl:grid-cols-4"}`}>
+                  <div
+                    className={`grid gap-3 ${
+                      displayedProducts.length === 1
+                        ? "grid-cols-1"
+                        : displayedProducts.length === 5
+                          ? "five-product-grid grid-cols-2"
+                          : "grid-cols-2 sm:grid-cols-3 xl:grid-cols-4"
+                    }`}
+                  >
                     {displayedProducts.map((product, index) => {
                       const imagePath = typeof product === "string" ? product : product.image;
                       const productName = typeof product === "string" ? null : product.name;
