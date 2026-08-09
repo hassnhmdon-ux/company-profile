@@ -393,4 +393,307 @@ function App() {
                   <p className="mt-2 text-sm leading-6 text-white/55">Trusted food categories for Iraqi homes and retailers.</p>
                 </div>
                 <img src={asset("/images/hero-mutlu-cutout.webp")} alt="Mutlu pasta product" decoding="async" className="product-shadow absolute bottom-5 left-[1%] z-20 h-[52%] w-[42%] object-contain sm:bottom-7 sm:left-[4%] sm:h-[60%]" />
-                <img src={asset("/images/hero-lolo-cutout.webp")} alt="LOLO premium rice product" decoding="async" fetchPriority="high" className="product-shadow absolute bottom-3 left-[29%] z-30 h-[54%] w-[43%] object-contain sÛ5¶‰žËkºwµçuµˆ(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€è€‰‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀ‰œµÝ¡¥Ñ”Ñ•áÐµ‰±…¬¼ØÀ¡½Ù•Èé‰½É‘•ÈµlŒåˆÅŒÈåt¼ÌÔ¡½Ù•ÈéÑ•áÐµlŒåˆÅŒÈåtˆ(€€€€€€€€€€€€€€€€€€€€€€€€€õô(€€€€€€€€€€€€€€€€€€€€€€€€ø(€€€€€€€€€€€€€€€€€€€€€€€€€í½±±•Ñ¥½¸¹¹…µ•ô(€€€€€€€€€€€€€€€€€€€€€€€€ð½‰ÕÑÑ½¸ø(€€€€€€€€€€€€€€€€€€€€€€¤¥ô(€€€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€€€¥ô(€€€€€€€€€€€€€€€€€€ñ‘¥Ø(€€€€€€€€€€€€€€€€€€€±…ÍÍ9…µ”õíÉ¥…À´Ì€‘ì(€€€€€€€€€€€€€€€€€€€€€‘¥ÍÁ±…å•‘AÉ½‘ÕÑÌ¹±•¹Ñ €ôôô€Ä(€€€€€€€€€€€€€€€€€€€€€€€€ü€‰É¥µ½±Ì´Äˆ(€€€€€€€€€€€€€€€€€€€€€€€€è‘¥ÍÁ±…å•‘AÉ½‘ÕÑÌ¹±•¹Ñ €ôôô€Ô(€€€€€€€€€€€€€€€€€€€€€€€€€€ü€‰™¥Ù”µÁÉ½‘ÕÐµÉ¥É¥µ½±Ì´Èˆ(€€€€€€€€€€€€€€€€€€€€€€€€€€è€‰É¥µ½±Ì´ÈÍ´éÉ¥µ½±Ì´Ìá°éÉ¥µ½±Ì´Ðˆ(€€€€€€€€€€€€€€€€€€€õô(€€€€€€€€€€€€€€€€€€ø(€€€€€€€€€€€€€€€€€€€í‘¥ÍÁ±…å•‘AÉ½‘ÕÑÌ¹µ…À ¡ÁÉ½‘ÕÐ°¥¹‘•à¤€ôøì(€€€€€€€€€€€€€€€€€€€€€½¹ÍÐ¥µ…•A…Ñ €ôÑåÁ•½˜ÁÉ½‘ÕÐ€ôôô€‰ÍÑÉ¥¹œˆ€üÁÉ½‘ÕÐ€èÁÉ½‘ÕÐ¹¥µ…”ì(€€€€€€€€€€€€€€€€€€€€€½¹ÍÐÁÉ½‘ÕÑ9…µ”€ôÑåÁ•½˜ÁÉ½‘ÕÐ€ôôô€‰ÍÑÉ¥¹œˆ€ü¹Õ±°€èÁÉ½‘ÕÐ¹¹…µ”ì((€€€€€€€€€€€€€€€€€€€€€É•ÑÕÉ¸€ (€€€€€€€€€€€€€€€€€€€€€€€€ñ…ÉÑ¥±”­•äõí¥µ…•A…Ñ¡ô±…ÍÍ9…µ”ô‰™±•àµ¥¸µ µlÈÌÁÁát™±•àµ½°½Ù•É™±½Üµ¡¥‘‘•¸É½Õ¹‘•´Éá°‰œµÝ¡¥Ñ”À´ÐÍ¡…‘½ÜµÍ´ˆø(€€€€€€€€€€€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É¥µ¥¸µ ´À™±•à´ÄÁ±…”µ¥Ñ•µÌµ•¹Ñ•È½Ù•É™±½Üµ¡¥‘‘•¸ˆø(€€€€€€€€€€€€€€€€€€€€€€€€€€€€ñ¥µœ(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ÍÉŒõí…ÍÍ•Ð¡¥µ…•A…Ñ ¥ô(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€…±ÐõíÁÉ½‘ÕÑ9…µ”ñð€‘íÁÉ½‘ÕÑI…¹•9…µ•ôÁÉ½‘ÕÐ€‘í¥¹‘•à€¬€Åõô(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€±½…‘¥¹œô‰±…éäˆ(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€‘•½‘¥¹œô‰…Íå¹Œˆ(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€±…ÍÍ9…µ”õíµ…àµ ´ÔÈÜµ™Õ±°½É¥¥¸µ•¹Ñ•È½‰©•Ðµ½¹Ñ…¥¸ÑÉ…¹Í¥Ñ¥½¸µÑÉ…¹Í™½É´‘ÕÉ…Ñ¥½¸´ÌÀÀ€‘íÁÉ½‘ÕÑ%µ…•M…±”¡Í•±•Ñ•‘	É…¹¹¹…µ”°¥µ…•A…Ñ ¥õô(€€€€€€€€€€€€€€€€€€€€€€€€€€€€¼ø(€€€€€€€€€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€€€€€€€€€€íÁÉ½‘ÕÑ9…µ”€˜˜€ (€€€€€€€€€€€€€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´Ð‰½É‘•ÈµÐ‰½É‘•Èµ‰±…¬¼àÁÐ´ÐÑ•áÐµ±•™Ðˆø(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ñ Ð±…ÍÍ9…µ”ô‰Ñ•áÐµÍ´™½¹Ðµ‰±…¬±•…‘¥¹œ´ÔÑÉ…­¥¹œµl´À¸ÀÅ•µtˆùíÁÉ½‘ÕÑ9…µ•ôð½ Ðø(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´Ä¸ÔÑ•áÐµlÄÅÁát™½¹Ðµ‰½±ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸Å•µtÑ•áÐµ‰±…¬¼Ðàˆø(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€íÁÉ½‘ÕÐ¹Á…­…¥¹ô€¼íÁÉ½‘ÕÐ¹Ý•¥¡Ñô(€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€ð½Àø(€€€€€€€€€€€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€€€€€€€€€€€¥ô(€€€€€€€€€€€€€€€€€€€€€€€€ð½…ÉÑ¥±”ø(€€€€€€€€€€€€€€€€€€€€€€¤ì(€€€€€€€€€€€€€€€€€€€ô¥ô(€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ð½µ½Ñ¥½¸¹‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸¥ô‰…Á…‰¥±¥Ñ¥•Ìˆ±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼µ…àµÜ´Ýá°Áà´ÔÁä´ÈÐÍ´éÁà´Ø±œéÁä´ÌÈá°éÁà´àˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É¥…À´ÄÈ±œéÉ¥µ½±ÌµlÀ¸ÌÙ™É|À¸ØÑ™Ét±œé…À´ÈÀˆø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰±œéÍÑ¥­ä±œéÑ½À´ÌÈ±œéÍ•±˜µÍÑ…ÉÐˆø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸É•µtÑ•áÐµlŒåˆÅŒÈåtˆù]¡…ÐÝ”‘¼ð½Àø(€€€€€€€€€€€€€€ñ È±…ÍÍ9…µ”ô‰µÐ´ÔÑ•áÐµ‰…±…¹”Ñ•áÐ´Ñá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÑ•µtÍ´éÑ•áÐ´Õá°ˆù=¹”Á…ÉÑ¹•È…É½ÍÌå½ÕÈÉ½ÕÑ”Ñ¼µ…É­•Ð¸ð½ Èø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµ‰…Í”±•…‘¥¹œ´ÜÑ•áÐµ‰±…¬¼ÔÔˆù½ÕÍ•…Á…‰¥±¥Ñ¥•Ì‘•Í¥¹•Ñ¼É•‘Õ”™É¥Ñ¥½¸…¹…•±•É…Ñ”É•ÍÁ½¹Í¥‰±”É½ÝÑ ¥¸%É…Ä¸ð½Àø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰‘¥Ù¥‘”µä‘¥Ù¥‘”µ‰±…¬¼ÄÀ‰½É‘•Èµä‰½É‘•Èµ‰±…¬¼ÄÀˆø(€€€€€€€€€€€€€íÍ•ÉÙ¥•Ì¹µ…À ¡ì¥½¸è%½¸°¹Õµ‰•È°Ñ¥Ñ±”°Ñ•áÐô¤€ôø€ (€€€€€€€€€€€€€€€€ñ‘¥Ø­•äõíÑ¥Ñ±•ô±…ÍÍ9…µ”ô‰É½ÕÀÉ¥…À´ÔÁä´àÍ´éÉ¥µ½±ÌµlÜÉÁá|Å™É}…ÕÑ½tÍ´é¥Ñ•µÌµÍÑ…ÉÐÍ´éÁä´ÄÀˆø(€€€€€€€€€€€€€€€€€€ñÍÁ…¸±…ÍÍ9…µ”ô‰Ñ•áÐµÍ´™½¹Ðµ‰±…¬ÑÉ…­¥¹œµlÀ¸ÄÉ•µtÑ•áÐµlŒåˆÅŒÈåtˆùí¹Õµ‰•Éôð½ÍÁ…¸ø(€€€€€€€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰™±•à¥Ñ•µÌµ•¹Ñ•È…À´Ìˆøñ%½¸±…ÍÍ9…µ”ô‰Ñ•áÐµá°Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñ Ì±…ÍÍ9…µ”ô‰Ñ•áÐ´Éá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÈÕ•µtˆùíÑ¥Ñ±•ôð½ Ìøð½‘¥Øø(€€€€€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´Ìµ…àµÜµá°Ñ•áÐµ‰…Í”±•…‘¥¹œ´ÜÑ•áÐµ‰±…¬¼ÔÔˆùíÑ•áÑôð½Àø(€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€€€ñ…ÉÉ½ÝI¥¡Ð±…ÍÍ9…µ”ô‰¡¥‘‘•¸€µÉ½Ñ…Ñ”´ÐÔÑ•áÐµÍ´Ñ•áÐµ‰±…¬¼ÈÔÑÉ…¹Í¥Ñ¥½¸É½ÕÀµ¡½Ù•ÈéÑ•áÐµlŒåˆÅŒÈåtÍ´é‰±½¬ˆ€¼ø(€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€¤¥ô(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸±…ÍÍ9…µ”ô‰‰œµl•”á”ÉtÁä´ÈÐ±œéÁä´ÌÈˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼µ…àµÜ´Ýá°Áà´ÔÍ´éÁà´Øá°éÁà´àˆø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µ…àµÜ´Íá°ˆø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸É•µtÑ•áÐµlŒåˆÅŒÈåtˆù]¡äÁ…ÉÑ¹•ÈÝ¥Ñ …Ý…¸°µ5½ÍÕ°ð½Àø(€€€€€€€€€€€€€€ñ È±…ÍÍ9…µ”ô‰µÐ´ÔÑ•áÐµ‰…±…¹”Ñ•áÐ´Ñá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÑ•µtÍ´éÑ•áÐ´Õá°ˆù½µµ•É¥…±±äÍ¡…ÉÀ¸=Á•É…Ñ¥½¹…±±ä‘•Á•¹‘…‰±”¸ð½ Èø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´ÄÈÉ¥…À´ÐÍ´éÉ¥µ½±Ì´È±œéÉ¥µ½±Ì´Ðˆø(€€€€€€€€€€€€€íÁ…ÉÑ¹•ÉI•…Í½¹Ì¹µ…À ¡ì¥½¸è%½¸°Ñ¥Ñ±”°Ñ•áÐô°¥¹‘•à¤€ôø€ (€€€€€€€€€€€€€€€€ñ‘¥Ø­•äõíÑ¥Ñ±•ô±…ÍÍ9…µ”ô‰É½Õ¹‘•µlÈÑÁát‰½É‘•È‰½É‘•Èµ‰±…¬¼Ô‰œµÝ¡¥Ñ”À´ÜÍ¡…‘½ÜµlÁ|ÄÉÁá|ÌÉÁá}É‰„ ÈÀ°ÈÀ°ÈÀ°À¸ÀÐ¥tÑÉ…¹Í¥Ñ¥½¸¡½Ù•ÈèµÑÉ…¹Í±…Ñ”µä´Ä¡½Ù•ÈéÍ¡…‘½Üµá°ˆø(€€€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰™±•à¥Ñ•µÌµ•¹Ñ•È©ÕÍÑ¥™äµ‰•ÑÝ••¸ˆø(€€€€€€€€€€€€€€€€€€€€ñÍÁ…¸±…ÍÍ9…µ”ô‰É¥ ´ÄÈÜ´ÄÈÁ±…”µ¥Ñ•µÌµ•¹Ñ•ÈÉ½Õ¹‘•µ™Õ±°‰œµl˜Ñ”Õ”ÝtÑ•áÐµ±œÑ•áÐµlŒåˆÅŒÈåtˆøñ%½¸€¼øð½ÍÁ…¸ø(€€€€€€€€€€€€€€€€€€€€ñÍÁ…¸…É¥„µ¡¥‘‘•¸ô‰ÑÉÕ”ˆ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÑÉ…­¥¹œµlÀ¸ÄÙ•µtÑ•áÐµ‰±…¬¼ÈÀˆøÁí¥¹‘•à€¬€Åôð½ÍÁ…¸ø(€€€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€€€€€ñ Ì±…ÍÍ9…µ”ô‰µÐ´àÑ•áÐµá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÉ•µtˆùíÑ¥Ñ±•ôð½ Ìø(€€€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´ÌÑ•áÐµÍ´±•…‘¥¹œ´ØÑ•áÐµ‰±…¬¼ÔÌˆùíÑ•áÑôð½Àø(€€€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€¤¥ô(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸¥ô‰‘¥ÍÑÉ¥‰ÕÑ¥½¸ˆ±…ÍÍ9…µ”ô‰‰œµlŒÄÜÄäÅtÁä´ÈÐÑ•áÐµÝ¡¥Ñ”±œéÁä´ÌÈˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼É¥µ…àµÜ´Ýá°¥Ñ•µÌµ•¹Ñ•È…À´ÄÈÁà´ÔÍ´éÁà´Ø±œéÉ¥µ½±Ì´È±œé…À´ÈÀá°éÁà´àˆø(€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸É•µtÑ•áÐµl‘˜ØÔÜÁtˆù¥ÍÑÉ¥‰ÕÑ¥½¸™½½ÑÁÉ¥¹Ðð½Àø(€€€€€€€€€€€€€€ñ È±…ÍÍ9…µ”ô‰µÐ´ÔÑ•áÐµ‰…±…¹”Ñ•áÐ´Ñá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÑ•µtÍ´éÑ•áÐ´Õá°ˆùÉ½´½ÕÈ5½ÍÕ°¡ÕˆÑ¼­•ä%É…Å¤µ…É­•ÑÌ¸ð½ Èø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´Øµ…àµÜµá°Ñ•áÐµ‰…Í”±•…‘¥¹œ´ÜÑ•áÐµÝ¡¥Ñ”¼ÔÜˆù=¹”Í¡¥Áµ•¹ÑÌ…ÉÉ¥Ù”…Ð½ÕÈ5½ÍÕ°¡Õˆ°ÑÉÕÍÑ•É•¥½¹…°‘¥ÍÑÉ¥‰ÕÑ½ÉÌ‘¥ÍÁ…Ñ ¥µµ•‘¥…Ñ•±ä°ÍÕÁÁ½ÉÑ¥¹œÉ•±¥…‰±”ÁÉ½‘ÕÐ™±½Ü…¹™…ÍÑ•ÈÑ¥µ”Ñ¼µ…É­•Ð¸ð½Àø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´äÉ¥É¥µ½±Ì´È…Àµà´à…Àµä´ÐÍ´éÉ¥µ½±Ì´Ìˆø(€€€€€€€€€€€€€€€í½Ù•É¹½É…Ñ•Ì¹µ…À ¡½Ù•É¹½É…Ñ”¤€ôø€ (€€€€€€€€€€€€€€€€€€ñ‘¥Ø­•äõí½Ù•É¹½É…Ñ•ô±…ÍÍ9…µ”ô‰™±•à¥Ñ•µÌµ•¹Ñ•È…À´Ì‰½É‘•Èµˆ‰½É‘•ÈµÝ¡¥Ñ”¼ÄÀÁˆ´ÐÑ•áÐµÍ´™½¹Ðµ‰½±ˆøñÍÁ…¸±…ÍÍ9…µ”ô‰ ´ÈÜ´ÈÉ½Õ¹‘•µ™Õ±°‰œµläÑ„ÔÝtˆ€¼ùí½Ù•É¹½É…Ñ•ôð½‘¥Øø(€€€€€€€€€€€€€€€€¤¥ô(€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´à¥¹±¥¹”µ™±•à¥Ñ•µÌµ•¹Ñ•È…À´ÌÉ½Õ¹‘•µ™Õ±°‰½É‘•È‰½É‘•ÈµÝ¡¥Ñ”¼ÄÔÁà´ÐÁä´ÈÑ•áÐµáÌ™½¹Ðµ‰½±ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµÝ¡¥Ñ”¼ØÀˆøñ…5…Á5…É­•É±Ð±…ÍÍ9…µ”ô‰Ñ•áÐµläÑ„ÔÝtˆ€¼ø5½ÍÕ°¡•…‘ÅÕ…ÉÑ•ÉÌð½‘¥Øø(€€€€€€€€€€€€ð½‘¥Øø((€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µ…Àµ‘½ÑÌÉ•±…Ñ¥Ù”µ¥¸µ µlÐàÁÁát½Ù•É™±½Üµ¡¥‘‘•¸É½Õ¹‘•µlÌÁÁát‰½É‘•È‰½É‘•ÈµÝ¡¥Ñ”¼ÄÀ‰œµÝ¡¥Ñ”½lÀ¸ÀÌÕtÀ´ÜÍ´éÀ´ÄÀˆø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…‰Í½±ÕÑ”€µÉ¥¡Ð´ÄØ€µÑ½À´ÄØ ´ØÐÜ´ØÐÉ½Õ¹‘•µ™Õ±°‰œµlŒåˆÅŒÈåt¼ÌÀ‰±ÕÈµlàÁÁátˆ€¼ø(€€€€€€€€€€€€€€ñ¥µœÍÉŒõí…ÍÍ•Ð ˆ½¥µ…•Ì½±½½…‰½ÔÄ¹©Áœˆ¥ô…±Ðô‰%É…Ä‘¥ÍÑÉ¥‰ÕÑ¥½¸¹•ÑÝ½É¬µ…Àˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ±…ÍÍ9…µ”ô‰É•±…Ñ¥Ù”è´ÄÀ µ™Õ±°µ¥¸µ µlÐÄÁÁátÜµ™Õ±°É½Õ¹‘•´Éá°½‰©•Ðµ½¹Ñ…¥¸½Á…¥Ñä´àÔµ¥àµ‰±•¹µÍÉ••¸ˆ€¼ø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…‰Í½±ÕÑ”‰½ÑÑ½´´Ø±•™Ð´Øè´ÈÀÉ½Õ¹‘•´Éá°‰œµÝ¡¥Ñ”Áà´ÔÁä´ÐÑ•áÐµlŒÄÜÄäÅtÍ¡…‘½Üµá°Í´é‰½ÑÑ½´´äÍ´é±•™Ð´äˆø(€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐ´Éá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÍ•µtˆù9…Ñ¥½¹Ý¥‘”É•… ð½Àø(€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´ÄÑ•áÐµáÌ™½¹Ðµ‰½±ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµ‰±…¬¼ØÀˆùI•¥½¹…°‘¥ÍÑÉ¥‰ÕÑ¥½¸Á…ÉÑ¹•ÉÌð½Àø(€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸¥ô‰Á…ÉÑ¹•Èˆ±…ÍÍ9…µ”ô‰Áà´ÔÁä´ÈÀÍ´éÁà´Ø±œéÁä´Èàá°éÁà´àˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É•±…Ñ¥Ù”µàµ…ÕÑ¼µ…àµÜ´Ýá°½Ù•É™±½Üµ¡¥‘‘•¸É½Õ¹‘•µlÌÉÁát‰œµlŒåˆÅŒÈåtÁà´ØÁä´ÄÐÑ•áÐµÝ¡¥Ñ”Í´éÁà´ÄÀ±œéÁà´ÄØ±œéÁä´ÈÀˆø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…‰Í½±ÕÑ”€µÉ¥¡Ð´ÈÐ€µÑ½À´ÈÐ ´äØÜ´äØÉ½Õ¹‘•µ™Õ±°‰½É‘•ÈµlÜÁÁát‰½É‘•ÈµÝ¡¥Ñ”½lÀ¸ÀÙtˆ€¼ø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰…‰Í½±ÕÑ”‰½ÑÑ½´´ÀÉ¥¡ÐµlÈÔ•t ´ÐÀÜ´ÐÀÉ½Õ¹‘•µ™Õ±°‰œµ‰±…¬¼ÄÀ‰±ÕÈ´Íá°ˆ€¼ø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É•±…Ñ¥Ù”è´ÄÀÉ¥¥Ñ•µÌµ•¹…À´ä±œéÉ¥µ½±ÌµlÅ™É}…ÕÑ½tˆø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µ…àµÜ´Íá°ˆø(€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸É•µtÑ•áÐµÝ¡¥Ñ”¼àÀˆù½ÈÍÕÁÁ±¥•ÉÌ€˜µ…¹Õ™…ÑÕÉ•ÉÌð½Àø(€€€€€€€€€€€€€€€€ñ È±…ÍÍ9…µ”ô‰µÐ´ÔÑ•áÐµ‰…±…¹”Ñ•áÐ´Ñá°™½¹Ðµ‰±…¬±•…‘¥¹œµlÄ¸ÀÉtÑÉ…­¥¹œµl´À¸ÀÑ•µtÍ´éÑ•áÐ´Õá°±œéÑ•áÐ´Ùá°ˆùI•…‘äÑ¼‰Õ¥±å½ÕÈ‰É…¹¥¸%É…Äüð½ Èø(€€€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´Øµ…àµÜ´Éá°Ñ•áÐµ±œ±•…‘¥¹œ´àÑ•áÐµÝ¡¥Ñ”¼ÜÈˆù	É¥¹œÕÌå½ÕÈÁÉ½‘ÕÐ…µ‰¥Ñ¥½¸¸]”Ý¥±°‰É¥¹œÑ¡”±½…°­¹½Ý±•‘”°É½ÕÑ”µÑ¼µµ…É­•Ð‘¥Í¥Á±¥¹”°…¹Á…ÉÑ¹•ÉÍ¡¥Àµ¥¹‘Í•ÐÑ¼µ½Ù”¥Ð™½ÉÝ…É¸ð½Àø(€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€€€ñ„¡É•˜ôˆ½¹Ñ…Ðˆ±…ÍÍ9…µ”ô‰¥¹±¥¹”µ™±•à¥Ñ•µÌµ•¹Ñ•È©ÕÍÑ¥™äµ•¹Ñ•È…À´ÌÉ½Õ¹‘•µ™Õ±°‰œµÝ¡¥Ñ”Áà´ÜÁä´Ð™½¹Ðµ‰±…¬Ñ•áÐµlŒàÌÄØÈÅtÑÉ…¹Í¥Ñ¥½¸¡½Ù•ÈèµÑÉ…¹Í±…Ñ”µä´À¸Ô¡½Ù•ÈéÍ¡…‘½Ü´Éá°ˆø(€€€€€€€€€€€€€€€MÑ…ÉÐ„½¹Ù•ÉÍ…Ñ¥½¸€ñ…ÉÉ½ÝI¥¡Ð±…ÍÍ9…µ”ô‰Ñ•áÐµÍ´ˆ€¼ø(€€€€€€€€€€€€€€ð½„ø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø((€€€€€€€€ñÍ•Ñ¥½¸¥ô‰½¹Ñ…Ðˆ±…ÍÍ9…µ”ô‰‰½É‘•ÈµÐ‰½É‘•Èµ‰±…¬¼à‰œµÝ¡¥Ñ”Áä´ÈÐ±œéÁä´Èàˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼É¥µ…àµÜ´Ýá°…À´ÄÈÁà´ÔÍ´éÁà´Ø±œéÉ¥µ½±ÌµlÀ¸ÐÉ™É|À¸Ôá™Ét±œé…À´ÈÀá°éÁà´àˆø(€€€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸É•µtÑ•áÐµlŒåˆÅŒÈåtˆù½¹Ñ…ÐÕÌð½Àø(€€€€€€€€€€€€€€ñ È±…ÍÍ9…µ”ô‰µÐ´ÔÑ•áÐ´Ñá°™½¹Ðµ‰±…¬ÑÉ…­¥¹œµl´À¸ÀÑ•µtÍ´éÑ•áÐ´Õá°ˆù1•ÐÌÑ…±¬…‰½ÕÐå½ÕÈ¹•áÐµ…É­•Ðµ½Ù”¸ð½ Èø(€€€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµ‰…Í”±•…‘¥¹œ´ÜÑ•áÐµ‰±…¬¼ÔÔˆù½È•á±ÕÍ¥Ù”‘¥ÍÑÉ¥‰ÕÑ¥½¸°ÁÉ¥¥¹œ°ÁÉ¥Ù…Ñ”±…‰•°°½È•¹•É…°‰ÕÍ¥¹•ÍÌ¥¹ÅÕ¥É¥•Ì°½¹Ñ…Ð½ÕÈÑ•…´¥¸5½ÍÕ°¸ð½Àø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½Ý„¹µ”¼äØÐÜÔÄÈÈÐÐäÀÀˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰µÐ´à¥¹±¥¹”µ™±•à¥Ñ•µÌµ•¹Ñ•È…À´ÌÉ½Õ¹‘•µ™Õ±°‰œµlŒÄÜÄäÅtÁà´ØÁä´Ð™½¹Ðµ‰½±Ñ•áÐµÝ¡¥Ñ”ÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰œµlŒåˆÅŒÈåtˆøñ…]¡…ÑÍ…ÁÀ€¼ø5•ÍÍ…”½¸]¡…ÑÍÁÀð½„ø(€€€€€€€€€€€€ð½‘¥Øø((€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É¥…À´ÐÍ´éÉ¥µ½±Ì´Èˆø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰µ…¥±Ñ¼éÍ…±•Í•…Ý…¹…±µ½ÍÕ°¹½´ˆ±…ÍÍ9…µ”ô‰É½Õ¹‘•´Éá°‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀÀ´ØÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµlŒåˆÅŒÈåt¼ÐÀ¡½Ù•ÈéÍ¡…‘½Üµ±œˆø(€€€€€€€€€€€€€€€€ñ…¹Ù•±½Á”±…ÍÍ9…µ”ô‰Ñ•áÐµá°Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµ‰±…¬¼ØÀˆùM…±•Ìð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´È™½¹Ðµ•áÑÉ…‰½±ˆùÍ…±•Í•…Ý…¹…±µ½ÍÕ°¹½´ð½Àø(€€€€€€€€€€€€€€ð½„ø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰µ…¥±Ñ¼é™¥¹…¹••…Ý…¹…±µ½ÍÕ°¹½´ˆ±…ÍÍ9…µ”ô‰É½Õ¹‘•´Éá°‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀÀ´ØÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµlŒåˆÅŒÈåt¼ÐÀ¡½Ù•ÈéÍ¡…‘½Üµ±œˆø(€€€€€€€€€€€€€€€€ñ…¹Ù•±½Á”±…ÍÍ9…µ”ô‰Ñ•áÐµá°Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµ‰±…¬¼ØÀˆù¥¹…¹”ð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´È™½¹Ðµ•áÑÉ…‰½±ˆù™¥¹…¹••…Ý…¹…±µ½ÍÕ°¹½´ð½Àø(€€€€€€€€€€€€€€ð½„ø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½Ý„¹µ”¼äØÐÜÜÈÐàààÀØØˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰É½Õ¹‘•´Éá°‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀÀ´ØÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµlŒåˆÅŒÈåt¼ÐÀ¡½Ù•ÈéÍ¡…‘½Üµ±œˆø(€€€€€€€€€€€€€€€€ñ…A¡½¹•±Ð±…ÍÍ9…µ”ô‰Ñ•áÐµá°Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµ‰±…¬¼ØÀˆù¥É•Ð€¼!…Í…¸M…±…´ð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´È™½¹Ðµ•áÑÉ…‰½±ˆø¬äØÐ€ÜÜÈ€Ðààà€ÀØØð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´ÄÑ•áÐµÍ´Ñ•áÐµ‰±…¬¼ØÀˆù¡…Í…¹•…Ý…¹…±µ½ÍÕ°¹½´ð½Àø(€€€€€€€€€€€€€€ð½„ø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½µ…ÁÌ¹½½±”¹½´¼ýÄõ5½ÍÕ°±%É…ÄˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰É½Õ¹‘•´Éá°‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀÀ´ØÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµlŒåˆÅŒÈåt¼ÐÀ¡½Ù•ÈéÍ¡…‘½Üµ±œˆø(€€€€€€€€€€€€€€€€ñ…5…Á5…É­•É±Ð±…ÍÍ9…µ”ô‰Ñ•áÐµá°Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñÀ±…ÍÍ9…µ”ô‰µÐ´ØÑ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÑ•µtÑ•áÐµ‰±…¬¼ØÀˆù!•…½™™¥”ð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´È™½¹Ðµ•áÑÉ…‰½±ˆù5½ÍÕ°°%É…Äð½ÀøñÀ±…ÍÍ9…µ”ô‰µÐ´ÄÑ•áÐµÍ´±•…‘¥¹œ´ÔÑ•áÐµ‰±…¬¼ØÀˆùM¥¹…•…Ð°-…É…µ„°‰•¡¥¹…È…±±•É¥•Ì°4ÄÐhÈäÐð½Àø(€€€€€€€€€€€€€€ð½„ø(€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰É½Õ¹‘•´Éá°‰½É‘•È‰½É‘•Èµ‰±…¬¼ÄÀÀ´ØÍ´é½°µÍÁ…¸´Èˆø(€€€€€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰™±•à¥Ñ•µÌµ•¹Ñ•È…À´Ìˆøñ…±½¬±…ÍÍ9…µ”ô‰Ñ•áÐµlŒåˆÅŒÈåtˆ€¼øñÀ±…ÍÍ9…µ”ô‰™½¹Ðµ•áÑÉ…‰½±ˆù=™™¥”¡½ÕÉÌð½Àøð½‘¥ØøñÀ±…ÍÍ9…µ”ô‰µÐ´ÈÑ•áÐµÍ´Ñ•áÐµ‰±…¬¼ØÀˆùM…ÑÕÉ‘…äµQ¡ÕÉÍ‘…ä€¼€ÀàèÀÀ´ÄÜèÀÀð½Àø(€€€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½Í•Ñ¥½¸ø(€€€€€€ð½µ…¥¸ø((€€€€€€ñ™½½Ñ•È±…ÍÍ9…µ”ô‰‰œµlŒÄÜÄäÅtÑ•áÐµÝ¡¥Ñ”ˆø(€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼É¥µ…àµÜ´Ýá°…À´ÄÈÁà´ÔÁä´ÄÐÍ´éÁà´ØµéÉ¥µ½±ÌµlÅ™É}…ÕÑ½}…ÕÑ½tá°éÁà´àˆø(€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€ñ¥µœÍÉŒõí…ÍÍ•Ð ˆ½¥µ…•Ì½±½¼Ä¹Á¹œˆ¥ô…±Ðô‰…Ý…¸°µ5½ÍÕ°ˆ±½…‘¥¹œô‰±…éäˆ‘•½‘¥¹œô‰…Íå¹Œˆ±…ÍÍ9…µ”ô‰ ´ÄÄÜµ…ÕÑ¼É½Õ¹‘•‰œµÝ¡¥Ñ”¼äÀÁà´Èˆ€¼ø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰µÐ´Ôµ…àµÜµÍ´Ñ•áÐµÍ´±•…‘¥¹œ´ØÑ•áÐµÝ¡¥Ñ”¼ØÔˆùe½ÕÈÑÉÕÍÑ•¥µÁ½ÉÐ°‘¥ÍÑÉ¥‰ÕÑ¥½¸°…¹‰É…¹µ‰Õ¥±‘¥¹œÁ…ÉÑ¹•È¥¸%É…ÄÍ¥¹”€ÈÀÀÐ¸ð½Àø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸Äá•µtÑ•áÐµÝ¡¥Ñ”¼ØÀˆù9…Ù¥…Ñ”ð½Àø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´ÔÉ¥…À´ÌÑ•áÐµÍ´™½¹ÐµÍ•µ¥‰½±Ñ•áÐµÝ¡¥Ñ”¼Øàˆø(€€€€€€€€€€€€€í¹…Ù%Ñ•µÌ¹Í±¥” À°€Ð¤¹µ…À ¡m±…‰•°°Ñ…É•Ñt¤€ôø€ñ„­•äõíÑ…É•Ñô¡É•˜õí€Œ‘íÑ…É•Ñõô±…ÍÍ9…µ”ô‰ÑÉ…¹Í¥Ñ¥½¸¡½Ù•ÈéÑ•áÐµÝ¡¥Ñ”ˆùí±…‰•±ôð½„ø¥ô(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ñ‘¥Øø(€€€€€€€€€€€€ñÀ±…ÍÍ9…µ”ô‰Ñ•áÐµáÌ™½¹Ðµ‰±…¬ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸Äá•µtÑ•áÐµÝ¡¥Ñ”¼ØÀˆù½±±½Üð½Àø(€€€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µÐ´Ô™±•à…À´Ìˆø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½ÝÝÜ¹¥¹ÍÑ…É…´¹½´½”Å}…±µ½ÍÕ°ý¥Í õ9Å!I½¹±©•¹¼Ìˆ…É¥„µ±…‰•°ô‰%¹ÍÑ…É…´ˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰É¥ ´ÄÀÜ´ÄÀÁ±…”µ¥Ñ•µÌµ•¹Ñ•ÈÉ½Õ¹‘•µ™Õ±°‰½É‘•È‰½É‘•ÈµÝ¡¥Ñ”¼ÄÔÑ•áÐµÝ¡¥Ñ”¼ÜÀÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµläÑ„ÔÝt¡½Ù•ÈéÑ•áÐµÝ¡¥Ñ”ˆøñ…%¹ÍÑ…É…´€¼øð½„ø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½ÝÝÜ¹™…•‰½½¬¹½´½Í¡…É”¼ÄÕÅÀÝAå1T¼ˆ…É¥„µ±…‰•°ô‰…•‰½½¬ˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰É¥ ´ÄÀÜ´ÄÀÁ±…”µ¥Ñ•µÌµ•¹Ñ•ÈÉ½Õ¹‘•µ™Õ±°‰½É‘•È‰½É‘•ÈµÝ¡¥Ñ”¼ÄÔÑ•áÐµÝ¡¥Ñ”¼ÜÀÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµläÑ„ÔÝt¡½Ù•ÈéÑ•áÐµÝ¡¥Ñ”ˆøñ……•‰½½­€¼øð½„ø(€€€€€€€€€€€€€€ñ„¡É•˜ô‰¡ÑÑÁÌè¼½Ý„¹µ”¼äØÐÜÜÈÐàààÀØØˆ…É¥„µ±…‰•°ô‰]¡…ÑÍÁÀˆÑ…É•Ðô‰}‰±…¹¬ˆÉ•°ô‰¹½É•™•ÉÉ•Èˆ±…ÍÍ9…µ”ô‰É¥ ´ÄÀÜ´ÄÀÁ±…”µ¥Ñ•µÌµ•¹Ñ•ÈÉ½Õ¹‘•µ™Õ±°‰½É‘•È‰½É‘•ÈµÝ¡¥Ñ”¼ÄÔÑ•áÐµÝ¡¥Ñ”¼ÜÀÑÉ…¹Í¥Ñ¥½¸¡½Ù•Èé‰½É‘•ÈµläÑ„ÔÝt¡½Ù•ÈéÑ•áÐµÝ¡¥Ñ”ˆøñ…]¡…ÑÍ…ÁÀ€¼øð½„ø(€€€€€€€€€€€€ð½‘¥Øø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½‘¥Øø(€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰‰½É‘•ÈµÐ‰½É‘•ÈµÝ¡¥Ñ”¼ÄÀˆø(€€€€€€€€€€ñ‘¥Ø±…ÍÍ9…µ”ô‰µàµ…ÕÑ¼™±•àµ…àµÜ´Ýá°™±•àµ½°…À´ÈÁà´ÔÁä´ÔÑ•áÐµlÄÅÁát™½¹ÐµÍ•µ¥‰½±ÕÁÁ•É…Í”ÑÉ…­¥¹œµlÀ¸ÄÉ•µtÑ•áÐµÝ¡¥Ñ”¼ØÀÍ´é™±•àµÉ½ÜÍ´é¥Ñ•µÌµ•¹Ñ•ÈÍ´é©ÕÍÑ¥™äµ‰•ÑÝ••¸Í´éÁà´Øá°éÁà´àˆø(€€€€€€€€€€€€ñÀùì‰qÔÀÁä‰ôí¹•Ü…Ñ” ¤¹•ÑÕ±±e•…È ¥ô…Ý…¸°µ5½ÍÕ°•¹•É…°QÉ…‘¥¹œ¼¸1Ñ¸ð½Àø(€€€€€€€€€€€€ñÀùI•œ¸9¼¸€ÄääÔÔ€¼5½ÍÕ°°%É…Äð½Àø(€€€€€€€€€€ð½‘¥Øø(€€€€€€€€ð½‘¥Øø(€€€€€€ð½™½½Ñ•Èø(€€€€ð½‘¥Øø(€€¤ì)ô()•áÁ½ÉÐ‘•™…Õ±ÐÁÀì(
+                <img src={asset("/images/hero-lolo-cutout.webp")} alt="LOLO premium rice product" decoding="async" fetchPriority="high" className="product-shadow absolute bottom-3 left-[29%] z-30 h-[54%] w-[43%] object-contain sm:bottom-6 sm:left-[31%] sm:h-[70%]" />
+                <img src={asset("/images/hero-ankara-cutout.webp")} alt="Nuh'un Ankara pasta product" decoding="async" className="product-shadow absolute bottom-4 right-0 z-20 h-[58%] w-[40%] object-contain sm:bottom-5 sm:right-[2%] sm:h-[66%]" />
+              </div>
+              <div className="glass-card absolute -bottom-5 left-4 z-40 flex items-center gap-4 rounded-2xl px-5 py-4 text-[#17191c] sm:-left-7 sm:bottom-8">
+                <span className="grid h-11 w-11 place-items-center rounded-full bg-[#f5e7e9] text-[#9b1c29]"><FaCheck /></span>
+                <div><p className="text-xs font-bold uppercase tracking-[0.14em] text-black/60">End-to-end</p><p className="mt-0.5 font-extrabold">From factory to shelf</p></div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        <section aria-label="Company statistics" className="relative z-10 mx-auto -mt-px max-w-7xl px-5 sm:px-6 xl:px-8">
+          <div className="grid rounded-b-[30px] bg-white shadow-[0_24px_70px_rgba(15,18,22,0.08)] sm:grid-cols-2 lg:grid-cols-4">
+            {stats.map((stat, index) => (
+              <div key={stat.label} className={`px-7 py-7 sm:px-8 lg:py-9 ${index !== 0 ? "border-t border-black/5 sm:border-t-0" : ""} ${index > 0 ? "sm:border-l" : ""}`}>
+                <p className="text-3xl font-black tracking-[-0.04em] text-[#9b1c29] sm:text-4xl">{stat.value}</p>
+                <p className="mt-2 text-sm font-semibold leading-5 text-black/54">{stat.label}</p>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <section id="about" className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:py-32 xl:px-8">
+          <div className="grid items-end gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-20">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#9b1c29]">Built for the Iraqi market</p>
+              <h2 className="mt-5 text-balance text-4xl font-black leading-[1.05] tracking-[-0.04em] sm:text-5xl">Local insight. International standards. One committed partner.</h2>
+            </div>
+            <div className="border-l-2 border-[#9b1c29] pl-6 sm:pl-9">
+              <p className="text-lg leading-8 text-black/62">
+                Established in 2004 and headquartered in Mosul, Eawan Al-Mosul General Trading Co. Ltd. imports high-quality food products from reputable manufacturers worldwide and distributes them across Iraq.
+              </p>
+              <p className="mt-5 text-base leading-7 text-black/54">
+                We combine accurate documentation, dependable logistics, disciplined sales execution, and market-specific brand development to turn supplier ambition into durable Iraqi market presence.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="brands" className="bg-white py-24 lg:py-32">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 xl:px-8">
+            <div className="flex flex-col justify-between gap-7 md:flex-row md:items-end">
+              <div>
+                <p className="text-xs font-black uppercase tracking-[0.2em] text-[#9b1c29]">Our portfolio</p>
+                <h2 className="mt-5 text-4xl font-black tracking-[-0.04em] sm:text-5xl">Brands built for everyday demand.</h2>
+              </div>
+              <p className="max-w-md text-base leading-7 text-black/55">A selection from our growing portfolio of food brands and products that we import, distribute, and develop across Iraq. Select a brand to explore.</p>
+            </div>
+
+            <div className="mt-12 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-8">
+              {brands.map((brand) => (
+                <button
+                  key={brand.name}
+                  type="button"
+                  data-active={activeBrand === brand.name}
+                  onClick={() => selectBrand(brand)}
+                  className={`brand-card relative flex min-h-[152px] flex-col items-center justify-center rounded-2xl border px-4 py-5 text-center transition focus:outline-none focus-visible:ring-2 focus-visible:ring-[#9b1c29] focus-visible:ring-offset-2 ${activeBrand === brand.name ? "border-[#9b1c29] bg-[#fcf6f6] shadow-lg" : "border-black/10 bg-white hover:-translate-y-1 hover:border-black/20 hover:shadow-lg"}`}
+                >
+                  {brand.badge && (
+                    <span className="absolute right-2.5 top-2.5 rounded-full bg-[#9b1c29] px-2 py-1 text-[9px] font-black uppercase tracking-[0.1em] text-white">
+                      New
+                    </span>
+                  )}
+                  <img
+                    src={asset(brand.logo)}
+                    alt={`${brand.name} logo`}
+                    loading="lazy"
+                    decoding="async"
+                    className={`h-14 w-full object-contain transition-transform duration-300 ${brandLogoScale(brand.name)}`}
+                  />
+                  <span className="mt-4 text-sm font-extrabold">{brand.name}</span>
+                  <span className="mt-1 text-[11px] font-semibold text-black/60">{brand.category}</span>
+                </button>
+              ))}
+            </div>
+
+            <motion.div key={`${selectedBrand.name}-${productRangeName}`} initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} className="mt-7 overflow-hidden rounded-[28px] bg-[#f3f0ec]">
+              <div className="grid lg:grid-cols-[0.34fr_0.66fr]">
+                <div className="flex flex-col justify-between bg-[#17191c] p-8 text-white sm:p-10">
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-[0.18em] text-[#df6570]">Featured range</p>
+                    <h3 className="mt-4 text-3xl font-black tracking-[-0.03em]">{selectedBrand.name}</h3>
+                    <p className="mt-2 text-sm text-white/50">{selectedBrand.category}</p>
+                    {selectedBrand.badge && (
+                      <p className="mt-4 inline-flex rounded-full bg-[#9b1c29] px-3 py-1.5 text-[10px] font-black uppercase tracking-[0.14em] text-white">
+                        {selectedBrand.badge}
+                      </p>
+                    )}
+                    <p className="mt-5 inline-flex rounded-full border border-white/15 px-3 py-1.5 text-xs font-bold uppercase tracking-[0.12em] text-white/65">
+                      {displayedProducts.length} products
+                    </p>
+                  </div>
+                  <p className="mt-10 text-sm leading-6 text-white/55">A market-ready selection supported by Eawan Al-Mosul's import, distribution, and trade development capabilities.</p>
+                </div>
+                <div className="p-5 sm:p-7">
+                  {selectedBrand.collections && (
+                    <div className="mb-5 flex flex-wrap gap-2" aria-label="Nuh'un Ankara product ranges">
+                      {selectedBrand.collections.map((collection) => (
+                        <button
+                          key={collection.name}
+                          type="button"
+                          aria-pressed={selectedCollection?.name === collection.name}
+                          onClick={() => setActiveCollection(collection.name)}
+                          className={`rounded-full px-4 py-2.5 text-sm font-extrabold transition ${
+                            selectedCollection?.name === collection.name
+                              ? "bg-[#9b1c29] text-white shadow-md"
+                              : "border border-black/10 bg-white text-black/60 hover:border-[#9b1c29]/35 hover:text-[#9b1c29]"
+                          }`}
+                        >
+                          {collection.name}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                  <div
+                    className={`grid gap-3 ${
+                      displayedProducts.length === 1
+                        ? "grid-cols-1"
+                        : displayedProducts.length === 5
+                          ? "five-product-grid grid-cols-2"
+                          : "grid-cols-2 sm:grid-cols-3 xl:grid-cols-4"
+                    }`}
+                  >
+                    {displayedProducts.map((product, index) => {
+                      const imagePath = typeof product === "string" ? product : product.image;
+                      const productName = typeof product === "string" ? null : product.name;
+
+                      return (
+                        <article key={imagePath} className="flex min-h-[230px] flex-col overflow-hidden rounded-2xl bg-white p-4 shadow-sm">
+                          <div className="grid min-h-0 flex-1 place-items-center overflow-hidden">
+                            <img
+                              src={asset(imagePath)}
+                              alt={productName || `${productRangeName} product ${index + 1}`}
+                              loading="lazy"
+                              decoding="async"
+                              className={`max-h-52 w-full origin-center object-contain transition-transform duration-300 ${productImageScale(selectedBrand.name, imagePath)}`}
+                            />
+                          </div>
+                          {productName && (
+                            <div className="mt-4 border-t border-black/8 pt-4 text-left">
+                              <h4 className="text-sm font-black leading-5 tracking-[-0.01em]">{productName}</h4>
+                              <p className="mt-1.5 text-[11px] font-bold uppercase tracking-[0.1em] text-black/48">
+                                {product.packaging} / {product.weight}
+                              </p>
+                            </div>
+                          )}
+                        </article>
+                      );
+                    })}
+                  </div>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
+        <section id="capabilities" className="mx-auto max-w-7xl px-5 py-24 sm:px-6 lg:py-32 xl:px-8">
+          <div className="grid gap-12 lg:grid-cols-[0.36fr_0.64fr] lg:gap-20">
+            <div className="lg:sticky lg:top-32 lg:self-start">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#9b1c29]">What we do</p>
+              <h2 className="mt-5 text-balance text-4xl font-black tracking-[-0.04em] sm:text-5xl">One partner across your route to market.</h2>
+              <p className="mt-6 text-base leading-7 text-black/55">Focused capabilities designed to reduce friction and accelerate responsible growth in Iraq.</p>
+            </div>
+            <div className="divide-y divide-black/10 border-y border-black/10">
+              {services.map(({ icon: Icon, number, title, text }) => (
+                <div key={title} className="group grid gap-5 py-8 sm:grid-cols-[72px_1fr_auto] sm:items-start sm:py-10">
+                  <span className="text-sm font-black tracking-[0.12em] text-[#9b1c29]">{number}</span>
+                  <div>
+                    <div className="flex items-center gap-3"><Icon className="text-xl text-[#9b1c29]" /><h3 className="text-2xl font-black tracking-[-0.025em]">{title}</h3></div>
+                    <p className="mt-3 max-w-xl text-base leading-7 text-black/55">{text}</p>
+                  </div>
+                  <FaArrowRight className="hidden -rotate-45 text-sm text-black/25 transition group-hover:text-[#9b1c29] sm:block" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-[#ece8e2] py-24 lg:py-32">
+          <div className="mx-auto max-w-7xl px-5 sm:px-6 xl:px-8">
+            <div className="max-w-3xl">
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#9b1c29]">Why partner with Eawan Al-Mosul</p>
+              <h2 className="mt-5 text-balance text-4xl font-black tracking-[-0.04em] sm:text-5xl">Commercially sharp. Operationally dependable.</h2>
+            </div>
+            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+              {partnerReasons.map(({ icon: Icon, title, text }, index) => (
+                <div key={title} className="rounded-[24px] border border-black/5 bg-white p-7 shadow-[0_12px_32px_rgba(20,20,20,0.04)] transition hover:-translate-y-1 hover:shadow-xl">
+                  <div className="flex items-center justify-between">
+                    <span className="grid h-12 w-12 place-items-center rounded-full bg-[#f4e5e7] text-lg text-[#9b1c29]"><Icon /></span>
+                    <span aria-hidden="true" className="text-xs font-black tracking-[0.16em] text-black/20">0{index + 1}</span>
+                  </div>
+                  <h3 className="mt-8 text-xl font-black tracking-[-0.02em]">{title}</h3>
+                  <p className="mt-3 text-sm leading-6 text-black/53">{text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        <section id="distribution" className="bg-[#17191c] py-24 text-white lg:py-32">
+          <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 sm:px-6 lg:grid-cols-2 lg:gap-20 xl:px-8">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#df6570]">Distribution footprint</p>
+              <h2 className="mt-5 text-balance text-4xl font-black tracking-[-0.04em] sm:text-5xl">From our Mosul hub to key Iraqi markets.</h2>
+              <p className="mt-6 max-w-xl text-base leading-7 text-white/57">Once shipments arrive at our Mosul hub, trusted regional distributors dispatch immediately, supporting reliable product flow and faster time to market.</p>
+              <div className="mt-9 grid grid-cols-2 gap-x-8 gap-y-4 sm:grid-cols-3">
+                {governorates.map((governorate) => (
+                  <div key={governorate} className="flex items-center gap-3 border-b border-white/10 pb-4 text-sm font-bold"><span className="h-2 w-2 rounded-full bg-[#d94a57]" />{governorate}</div>
+                ))}
+              </div>
+              <div className="mt-8 inline-flex items-center gap-3 rounded-full border border-white/15 px-4 py-2 text-xs font-bold uppercase tracking-[0.14em] text-white/60"><FaMapMarkerAlt className="text-[#d94a57]" /> Mosul headquarters</div>
+            </div>
+
+            <div className="map-dots relative min-h-[480px] overflow-hidden rounded-[30px] border border-white/10 bg-white/[0.035] p-7 sm:p-10">
+              <div className="absolute -right-16 -top-16 h-64 w-64 rounded-full bg-[#9b1c29]/30 blur-[80px]" />
+              <img src={asset("/images/logoabou1.jpg")} alt="Iraq distribution network map" loading="lazy" decoding="async" className="relative z-10 h-full min-h-[410px] w-full rounded-2xl object-contain opacity-85 mix-blend-screen" />
+              <div className="absolute bottom-6 left-6 z-20 rounded-2xl bg-white px-5 py-4 text-[#17191c] shadow-xl sm:bottom-9 sm:left-9">
+                <p className="text-2xl font-black tracking-[-0.03em]">Nationwide reach</p>
+                <p className="mt-1 text-xs font-bold uppercase tracking-[0.14em] text-black/60">Regional distribution partners</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="partner" className="px-5 py-20 sm:px-6 lg:py-28 xl:px-8">
+          <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[32px] bg-[#9b1c29] px-6 py-14 text-white sm:px-10 lg:px-16 lg:py-20">
+            <div className="absolute -right-24 -top-24 h-96 w-96 rounded-full border-[70px] border-white/[0.06]" />
+            <div className="absolute bottom-0 right-[25%] h-40 w-40 rounded-full bg-black/10 blur-3xl" />
+            <div className="relative z-10 grid items-end gap-9 lg:grid-cols-[1fr_auto]">
+              <div className="max-w-3xl">
+                <p className="text-xs font-black uppercase tracking-[0.2em] text-white/80">For suppliers & manufacturers</p>
+                <h2 className="mt-5 text-balance text-4xl font-black leading-[1.02] tracking-[-0.04em] sm:text-5xl lg:text-6xl">Ready to build your brand in Iraq?</h2>
+                <p className="mt-6 max-w-2xl text-lg leading-8 text-white/72">Bring us your product ambition. We will bring the local knowledge, route-to-market discipline, and partnership mindset to move it forward.</p>
+              </div>
+              <a href="#contact" className="inline-flex items-center justify-center gap-3 rounded-full bg-white px-7 py-4 font-black text-[#831621] transition hover:-translate-y-0.5 hover:shadow-2xl">
+                Start a Conversation <FaArrowRight className="text-sm" />
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" className="border-t border-black/8 bg-white py-24 lg:py-28">
+          <div className="mx-auto grid max-w-7xl gap-12 px-5 sm:px-6 lg:grid-cols-[0.42fr_0.58fr] lg:gap-20 xl:px-8">
+            <div>
+              <p className="text-xs font-black uppercase tracking-[0.2em] text-[#9b1c29]">Contact us</p>
+              <h2 className="mt-5 text-4xl font-black tracking-[-0.04em] sm:text-5xl">Let's talk about your next market move.</h2>
+              <p className="mt-6 text-base leading-7 text-black/55">For exclusive distribution, pricing, private label, or general business inquiries, contact our team in Mosul.</p>
+              <a href="https://wa.me/9647512244900" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-3 rounded-full bg-[#17191c] px-6 py-4 font-bold text-white transition hover:bg-[#9b1c29]"><FaWhatsapp /> Message on WhatsApp</a>
+            </div>
+
+            <div className="grid gap-4 sm:grid-cols-2">
+              <a href="mailto:sales@eawanalmosul.com" className="rounded-2xl border border-black/10 p-6 transition hover:border-[#9b1c29]/40 hover:shadow-lg">
+                <FaEnvelope className="text-xl text-[#9b1c29]" /><p className="mt-6 text-xs font-black uppercase tracking-[0.14em] text-black/60">Sales</p><p className="mt-2 font-extrabold">sales@eawanalmosul.com</p>
+              </a>
+              <a href="mailto:finance@eawanalmosul.com" className="rounded-2xl border border-black/10 p-6 transition hover:border-[#9b1c29]/40 hover:shadow-lg">
+                <FaEnvelope className="text-xl text-[#9b1c29]" /><p className="mt-6 text-xs font-black uppercase tracking-[0.14em] text-black/60">Finance</p><p className="mt-2 font-extrabold">finance@eawanalmosul.com</p>
+              </a>
+              <a href="https://wa.me/9647724888066" target="_blank" rel="noreferrer" className="rounded-2xl border border-black/10 p-6 transition hover:border-[#9b1c29]/40 hover:shadow-lg">
+                <FaPhoneAlt className="text-xl text-[#9b1c29]" /><p className="mt-6 text-xs font-black uppercase tracking-[0.14em] text-black/60">Direct / Hasan Salam</p><p className="mt-2 font-extrabold">+964 772 4888 066</p><p className="mt-1 text-sm text-black/60">hasan@eawanalmosul.com</p>
+              </a>
+              <a href="https://maps.google.com/?q=Mosul,Iraq" target="_blank" rel="noreferrer" className="rounded-2xl border border-black/10 p-6 transition hover:border-[#9b1c29]/40 hover:shadow-lg">
+                <FaMapMarkerAlt className="text-xl text-[#9b1c29]" /><p className="mt-6 text-xs font-black uppercase tracking-[0.14em] text-black/60">Head office</p><p className="mt-2 font-extrabold">Mosul, Iraq</p><p className="mt-1 text-sm leading-5 text-black/60">Sinaeat Al Karama, behind car galleries, M14 Z29 B4</p>
+              </a>
+              <div className="rounded-2xl border border-black/10 p-6 sm:col-span-2">
+                <div className="flex items-center gap-3"><FaClock className="text-[#9b1c29]" /><p className="font-extrabold">Office hours</p></div><p className="mt-2 text-sm text-black/60">Saturday-Thursday / 08:00-17:00</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer className="bg-[#17191c] text-white">
+        <div className="mx-auto grid max-w-7xl gap-12 px-5 py-14 sm:px-6 md:grid-cols-[1fr_auto_auto] xl:px-8">
+          <div>
+            <img src={asset("/images/logo1.png")} alt="Eawan Al-Mosul" loading="lazy" decoding="async" className="h-11 w-auto rounded bg-white/90 px-2" />
+            <p className="mt-5 max-w-sm text-sm leading-6 text-white/65">Your trusted import, distribution, and brand-building partner in Iraq since 2004.</p>
+          </div>
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-white/60">Navigate</p>
+            <div className="mt-5 grid gap-3 text-sm font-semibold text-white/68">
+              {navItems.slice(0, 4).map(([label, target]) => <a key={target} href={`#${target}`} className="transition hover:text-white">{label}</a>)}
+            </div>
+          </div>
+          <div>
+            <p className="text-xs font-black uppercase tracking-[0.18em] text-white/60">Follow</p>
+            <div className="mt-5 flex gap-3">
+              <a href="https://www.instagram.com/e1_almosul?igsh=NGd1cHRocnljeno3" aria-label="Instagram" target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full border border-white/15 text-white/70 transition hover:border-[#d94a57] hover:text-white"><FaInstagram /></a>
+              <a href="https://www.facebook.com/share/15qp7PAyLU/" aria-label="Facebook" target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full border border-white/15 text-white/70 transition hover:border-[#d94a57] hover:text-white"><FaFacebookF /></a>
+              <a href="https://wa.me/9647724888066" aria-label="WhatsApp" target="_blank" rel="noreferrer" className="grid h-10 w-10 place-items-center rounded-full border border-white/15 text-white/70 transition hover:border-[#d94a57] hover:text-white"><FaWhatsapp /></a>
+            </div>
+          </div>
+        </div>
+        <div className="border-t border-white/10">
+          <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-5 text-[11px] font-semibold uppercase tracking-[0.12em] text-white/60 sm:flex-row sm:items-center sm:justify-between sm:px-6 xl:px-8">
+            <p>{"\u00A9"} {new Date().getFullYear()} Eawan Al-Mosul General Trading Co. Ltd.</p>
+            <p>Reg. No. 19955 / Mosul, Iraq</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+export default App;
