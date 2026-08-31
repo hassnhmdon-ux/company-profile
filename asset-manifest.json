@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.227b8c48.css",
-    "main.js": "/static/js/main.0edae663.js",
+    "main.css": "/static/css/main.1707e88d.css",
+    "main.js": "/static/js/main.065688a0.js",
+    "static/media/noto-sans-arabic-arabic.woff2": "/static/media/noto-sans-arabic-arabic.3f3bb83cfdbae0d97af5.woff2",
+    "static/media/noto-sans-arabic-latin.woff2": "/static/media/noto-sans-arabic-latin.99d317ada03a2b90eb16.woff2",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.227b8c48.css",
-    "static/js/main.0edae663.js"
+    "static/css/main.1707e88d.css",
+    "static/js/main.065688a0.js"
   ]
 }
