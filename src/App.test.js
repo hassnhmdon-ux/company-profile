@@ -4,6 +4,17 @@ import App from "./App";
 beforeEach(() => {
   window.localStorage.clear();
   window.history.replaceState({}, "", "/");
+  document.head.innerHTML = `
+    <title>Eawan Al-Mosul</title>
+    <meta name="description" content="English description" />
+    <meta property="og:title" content="English title" />
+    <meta property="og:description" content="English description" />
+    <meta property="og:url" content="https://www.eawanalmosul.com/" />
+    <meta property="og:locale" content="en_IQ" />
+    <meta name="twitter:title" content="English title" />
+    <meta name="twitter:description" content="English description" />
+    <link rel="canonical" href="https://www.eawanalmosul.com/" />
+  `;
   document.documentElement.lang = "en";
   document.documentElement.dir = "ltr";
 });
@@ -129,7 +140,8 @@ test("switches the complete homepage to Arabic and remembers the choice", () => 
   expect(document.documentElement).toHaveAttribute("lang", "ar");
   expect(document.documentElement).toHaveAttribute("dir", "rtl");
   expect(window.localStorage.getItem("eawan-language")).toBe("ar");
-  expect(window.location.search).toBe("?lang=ar");
+  expect(window.location.pathname).toBe("/ar/");
+  expect(window.location.search).toBe("");
 
   fireEvent.click(screen.getByRole("button", { name: /Nuh'un Ankara logo/i }));
   expect(screen.getByText("22 منتجًا")).toBeInTheDocument();
@@ -142,5 +154,42 @@ test("switches the complete homepage to Arabic and remembers the choice", () => 
 
   fireEvent.click(screen.getByRole("button", { name: "عرض الموقع باللغة الإنجليزية" }));
   expect(document.documentElement).toHaveAttribute("dir", "ltr");
+  expect(window.location.pathname).toBe("/");
   expect(window.location.search).toBe("");
+});
+
+test("loads the Arabic version directly from its crawlable URL", () => {
+  window.history.replaceState({}, "", "/ar/#home");
+
+  render(<App />);
+
+  expect(document.documentElement).toHaveAttribute("lang", "ar");
+  expect(document.documentElement).toHaveAttribute("dir", "rtl");
+  expect(
+    screen.getByRole("heading", {
+      level: 1,
+      name: /بوابتك إلى سوق الغذاء العراقي/i,
+    })
+  ).toBeInTheDocument();
+  expect(window.location.pathname).toBe("/ar/");
+  expect(window.location.hash).toBe("#home");
+  expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://www.eawanalmosul.com/ar/"
+  );
+});
+
+test("normalizes the legacy Arabic query URL to the canonical Arabic path", () => {
+  window.history.replaceState({}, "", "/?lang=ar#brands");
+
+  render(<App />);
+
+  expect(document.documentElement).toHaveAttribute("lang", "ar");
+  expect(window.location.pathname).toBe("/ar/");
+  expect(window.location.search).toBe("");
+  expect(window.location.hash).toBe("#brands");
+  expect(document.querySelector('link[rel="canonical"]')).toHaveAttribute(
+    "href",
+    "https://www.eawanalmosul.com/ar/"
+  );
 });

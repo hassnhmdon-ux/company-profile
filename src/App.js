@@ -31,6 +31,9 @@ const LANGUAGE_STORAGE_KEY = "eawan-language";
 const getInitialLanguage = () => {
   if (typeof window === "undefined") return "en";
 
+  const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+  if (normalizedPath === "/ar") return "ar";
+
   const urlLanguage = new URLSearchParams(window.location.search).get("lang");
   if (urlLanguage === "ar" || urlLanguage === "en") return urlLanguage;
 
@@ -577,9 +580,8 @@ function App() {
     const description = document.querySelector('meta[name="description"]');
     if (description) description.setAttribute("content", content.pageDescription);
 
-    const canonicalUrl = isArabic
-      ? "https://www.eawanalmosul.com/?lang=ar"
-      : "https://www.eawanalmosul.com/";
+    const languagePath = isArabic ? "/ar/" : "/";
+    const canonicalUrl = `https://www.eawanalmosul.com${languagePath}`;
     const canonical = document.querySelector('link[rel="canonical"]');
     if (canonical) {
       canonical.setAttribute("href", canonicalUrl);
@@ -602,8 +604,8 @@ function App() {
     });
 
     const url = new URL(window.location.href);
-    if (isArabic) url.searchParams.set("lang", "ar");
-    else url.searchParams.delete("lang");
+    url.pathname = languagePath;
+    url.searchParams.delete("lang");
     window.history.replaceState({}, "", `${url.pathname}${url.search}${url.hash}`);
   }, [content.pageDescription, content.pageTitle, isArabic, language]);
 

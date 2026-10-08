@@ -14,7 +14,7 @@ test("publishes consistent search-engine metadata", () => {
     "index, follow"
   );
   expect(document.querySelector('link[hreflang="ar"]')?.getAttribute("href")).toBe(
-    "https://www.eawanalmosul.com/?lang=ar"
+    "https://www.eawanalmosul.com/ar/"
   );
   expect(document.querySelector('link[hreflang="en"]')?.getAttribute("href")).toBe(
     "https://www.eawanalmosul.com/"
@@ -50,6 +50,19 @@ test("advertises the canonical URL through robots and sitemap", () => {
 
   expect(robots).toContain("Sitemap: https://www.eawanalmosul.com/sitemap.xml");
   expect(sitemap).toContain("<loc>https://www.eawanalmosul.com/</loc>");
+  expect(sitemap).toContain("<loc>https://www.eawanalmosul.com/ar/</loc>");
+  expect(sitemap).toContain('xmlns:xhtml="http://www.w3.org/1999/xhtml"');
+  expect(sitemap.match(/hreflang="ar"/g)).toHaveLength(2);
+  expect(sitemap.match(/hreflang="en"/g)).toHaveLength(2);
+  expect(sitemap.match(/hreflang="x-default"/g)).toHaveLength(2);
+});
+
+test("generates a static Arabic entry page during the production build", () => {
+  const packageJson = JSON.parse(fs.readFileSync(path.join(__dirname, "..", "package.json"), "utf8"));
+  const generator = path.join(__dirname, "..", "scripts", "create-language-pages.js");
+
+  expect(packageJson.scripts.postbuild).toBe("node scripts/create-language-pages.js");
+  expect(fs.existsSync(generator)).toBe(true);
 });
 
 test("packages the Arabic font locally", () => {
